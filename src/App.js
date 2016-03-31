@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
-
+import React, {Component} from 'react';
+import Counter from './counter/Counter'
 export default class App extends Component {
-  render() {
-    return (
-      <h1>Hello, world.</h1>
-    );
-  }
+
+    render() {
+        return (<div>
+               <Counter />
+            </div>
+        );
+    }
 }
